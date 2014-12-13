@@ -1,1 +1,1 @@
-DROP TABLE IF EXISTS data_sources;
+DROP TABLE IF EXISTS bloom.data_sources;

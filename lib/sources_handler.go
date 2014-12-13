@@ -22,7 +22,7 @@ func SourcesHandler (w http.ResponseWriter, req *http.Request) {
 		return
 	}
 
-	rows, err := conn.Query("SELECT source, updated, checked, status FROM data_sources")
+	rows, err := conn.Query("SELECT source, updated, checked, status FROM bloom.data_sources")
 	if err != nil {
 		log.Println(err)
 		renderJSON(w, req, http.StatusInternalServerError, "Internal Server Error")

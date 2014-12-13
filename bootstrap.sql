@@ -1,4 +1,6 @@
-CREATE TABLE data_sources
+
+CREATE SCHEMA IF NOT EXISTS bloom
+CREATE TABLE bloom.data_sources
 (
   source character varying(50) NOT NULL,
   updated timestamp without time zone,
