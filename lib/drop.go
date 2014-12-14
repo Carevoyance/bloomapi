@@ -3,7 +3,7 @@ package bloomapi
 import (
 	"log"
 	"io/ioutil"
-	"github.com/gocodo/bloomdb"
+	"github.com/dimfeld/bloomdb"
 )
 
 func Drop() {
