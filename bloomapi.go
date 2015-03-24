@@ -4,7 +4,7 @@ import (
 	"os"
 	"fmt"
 	"github.com/spf13/viper"
-	"github.com/dimfeld/bloomapi/lib"
+	"github.com/Carevoyance/bloomapi/lib"
 )
 
 func showUsage() {

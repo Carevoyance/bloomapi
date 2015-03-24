@@ -6,7 +6,7 @@ import (
 	"github.com/codegangsta/negroni"
 	"github.com/gorilla/context"
 	"github.com/spf13/viper"
-	"github.com/dimfeld/bloomdb"
+	"github.com/Carevoyance/bloomdb"
 )
 
 var bdb *bloomdb.BloomDatabase

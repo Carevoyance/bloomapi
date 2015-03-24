@@ -3,7 +3,7 @@ package bloomapi
 import (
 	"io/ioutil"
 	"log"
-	"github.com/dimfeld/bloomdb"
+	"github.com/Carevoyance/bloomdb"
 )
 
 func Bootstrap() {
